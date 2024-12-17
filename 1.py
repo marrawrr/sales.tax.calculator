@@ -30,4 +30,4 @@ def main():
     print(f'Total: {total}')
 
 if __name__ == "__main__":
-    run()
+    main()
