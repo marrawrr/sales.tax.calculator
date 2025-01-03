@@ -43,7 +43,7 @@ def get_tax_rate_by_state():
     }
 
     state = input("Please enter the state you live in (abbreviation, e.g., 'NJ'): ").strip().upper()
-    return state_tax_rates.get(state, 0.06625)  # Default tax rate if state not found
+    return state_tax_rates.get(state, 0.06625) #<default taxr
 
 def main():
     print("Sales Tax Calculator!")
